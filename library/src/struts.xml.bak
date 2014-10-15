@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+    <package name = "struts" extends = "struts-default" >
+    	<action name = "DetailInf" class = "action.DetailInfo">
+			<result name = "success">/DtailInformation.jsp</result>
+		</action>
+		
+		<action name = "DeteleBook" class = "action.DetelBook">
+			<result name = "success">/DeteleBook.jsp</result>
+		</action>
+		
+		<action name = "GetBook" class = "action.GetBook">
+			<result name = "success">/GetBook.jsp</result>
+		</action>
+	</package>
+
+</struts>
