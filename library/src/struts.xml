@@ -17,6 +17,6 @@
 		<action name = "GetBook" class = "action.GetBook">
 			<result name = "result">/GetBook.jsp</result>
 		</action>
-	</package>
+	
 
 </struts>

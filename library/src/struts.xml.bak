@@ -7,15 +7,28 @@
 
     <package name = "struts" extends = "struts-default" >
     	<action name = "DetailInf" class = "action.DetailInfo">
-			<result name = "success">/DtailInformation.jsp</result>
+			<result name = "result">/DtailInformation.jsp</result>
 		</action>
 		
 		<action name = "DeteleBook" class = "action.DetelBook">
-			<result name = "success">/DeteleBook.jsp</result>
+			<result name = "result">/DeteleBook.jsp</result>
 		</action>
 		
 		<action name = "GetBook" class = "action.GetBook">
-			<result name = "success">/GetBook.jsp</result>
+			<result name = "result">/GetBook.jsp</result>
+		</action>
+	</package>
+	 <package name = "struts" extends = "struts-default" >
+    	<action name = "DetailInf" class = "action.DetailInfo">
+			<result name = "result">/DtailInformation.jsp</result>
+		</action>
+		
+		<action name = "DeteleBook" class = "action.DetelBook">
+			<result name = "result">/DeteleBook.jsp</result>
+		</action>
+		
+		<action name = "GetBook" class = "action.GetBook">
+			<result name = "result">/GetBook.jsp</result>
 		</action>
 	</package>
 
